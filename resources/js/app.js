@@ -7,17 +7,11 @@ Vue.use(VueRouter);
 
 import ExampleComponent from "./components/ExampleComponent";
 import User from "./components/User";
-/*const routes =[
-    { path: '/', component: ExampleComponent},
-    { path: '/user', component: User }
-]*/
 
 const router = new VueRouter({
     mode: 'history',
     base: __dirname,
     routes: [
-        /*{ path: '/', component: ExampleComponent },
-        { path: '/user', component: User }*/
         {
             path: '/',
             components :{

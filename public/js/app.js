@@ -52142,18 +52142,10 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 Vue.use(vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]);
 
 
-/*const routes =[
-    { path: '/', component: ExampleComponent},
-    { path: '/user', component: User }
-]*/
-
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
   mode: 'history',
   base: __dirname,
-  routes: [
-  /*{ path: '/', component: ExampleComponent },
-  { path: '/user', component: User }*/
-  {
+  routes: [{
     path: '/',
     components: {
       "default": _components_ExampleComponent__WEBPACK_IMPORTED_MODULE_1__["default"],
